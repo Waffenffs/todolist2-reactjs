@@ -1,0 +1,81 @@
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+input {
+  height: 20px;
+  margin: 0 20px;
+  font-family: 'Karla', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #555555;
+  align-self: center;
+}
+
+main {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 30px;
+  width: 80vh;
+  border-radius: 5px;
+}
+
+.toDoElement {
+  display: flex;
+  color: #606060;
+  border-bottom: #e8e8e8 solid thin;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f3fee8;
+  color: #5c6255;
+  display: flex;
+}
+
+.content {
+  padding: 10px;
+}
+
+.add-button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: #5c6255;
+  font-family: 'Karla', sans-serif;
+}
+
+.delete-button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.delete-button:hover,
+.delete-button:active {
+  color: red;
+}
+
+.text {
+  display: flex;
+  gap: 3px;
+}
+
+span {
+  transition: 0.2ms;
+}
+
+span:active {
+  color: black;
+}
+
